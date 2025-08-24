@@ -1,4 +1,3 @@
-
 #include "hls_sobel_axi_stream.hpp"
 #include "imgproc/xf_sobel.hpp"
 #include "imgproc/xf_cvt_color.hpp"
@@ -11,7 +10,7 @@ void hls_sobel_axi_stream_top(
                 int cols) {
 
     #pragma HLS INTERFACE axis port=_src
-    #pragma HLS INTERFACE axis port=_dst 
+    #pragma HLS INTERFACE axis port=_dst
     #pragma HLS INTERFACE s_axilite port=rows           bundle=control
     #pragma HLS INTERFACE s_axilite port=cols           bundle=control
     #pragma HLS INTERFACE s_axilite port=return         bundle=control
