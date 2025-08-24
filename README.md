@@ -53,6 +53,18 @@ The **Sobel operator** is a popular gradient-based method that uses **two 3×3 c
 4. Apply a **threshold** → highlight strong edges, suppress weak ones.  
 
 The result is an image where **edges are highlighted** (white) against a dark background.
+## Files required for Vitis HLS
+**Xilinx Vitis HLS** (tested with version 2023.1 and above)
+- **Vitis Libraries (xfopencv)**  
+  - Download the Vitis Libraries from the official GitHub: [Xilinx Vitis Libraries](https://github.com/Xilinx/Vitis_Libraries)  
+  - Navigate to the `vision` module (`Vitis_Libraries/vision`) which contains functions like "common/xf_common.hpp",imgproc/xf_cvt_color.hpp".  
+  - Add the path of the downloaded library to your **Vitis HLS project include path**:  
+    ```
+    Project Settings → C/C++ Build Settings → Include Paths
+    ```
+    Example:  
+    ```
+    <path-to>/Vitis_Libraries/vision/L1/include
 
 
 ## Tools & Technologies  
