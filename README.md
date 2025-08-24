@@ -65,7 +65,7 @@ Target applications include **Advanced Driver Assistance Systems (ADAS)**, **rob
 ✅ **Performance:** Outperformed ARM-only execution.  
 ✅ **Efficiency:** Achieved reliable edge detection with minimal resources.  
 
-## 🌍 Applications  
+## Applications  
 - Advanced Driver Assistance Systems (ADAS)  
 - Robotics & Automation  
 - Smart Surveillance  
@@ -73,7 +73,7 @@ Target applications include **Advanced Driver Assistance Systems (ADAS)**, **rob
 
 ---
 
-## 🚀 Future Work  
+## Future Work  
 - Extend to **Canny edge detection**.  
 - Implement **real-time video edge detection**.  
 
