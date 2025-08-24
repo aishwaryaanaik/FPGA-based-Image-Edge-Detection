@@ -1,4 +1,3 @@
-src/conv2d.cpp
 
 #include "hls_sobel_axi_stream.hpp"
 #include "imgproc/xf_sobel.hpp"
