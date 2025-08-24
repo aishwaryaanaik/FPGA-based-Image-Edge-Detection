@@ -1,4 +1,5 @@
-code/hls_sobel_stream.cpp
+src/conv2d.cpp
+
 #include "hls_sobel_axi_stream.hpp"
 #include "imgproc/xf_sobel.hpp"
 #include "imgproc/xf_cvt_color.hpp"
