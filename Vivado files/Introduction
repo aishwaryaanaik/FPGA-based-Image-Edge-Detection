@@ -1,6 +1,0 @@
-## Vivado Generated Files
-
-- **`.bit`** – FPGA bitstream; used to program the FPGA.  
-- **`.xsa` / `.hdf`** – Hardware design archive; imported into Vitis for software development.  
-- **`.hwh`** – Hardware metadata (addresses, registers, interrupts); used by Vitis or PYNQ.  
-- **`.bd`** – Vivado block design file; editable in IP Integrator.  
