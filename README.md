@@ -12,11 +12,8 @@ Target applications include **Advanced Driver Assistance Systems (ADAS)**, **rob
 - Implemented in **C/C++ using Vitis HLS**.  
 - Integrated into **Vivado block design** with Zynq Processing System.  
 - Deployment on **PYNQ-Z2 FPGA board** with Python overlay.  
-- Benchmarked for **latency, LUTs, DSPs, and BRAMs**.  
-# FPGA-Based Edge Detection Using 2D Convolution  
-
-> Real-time Sobel edge detection on **PYNQ-Z2 FPGA** using **Vitis HLS and Vivado**, achieving low-latency and efficient image processing for embedded vision applications.  
-
+- Benchmarked for **latency, LUTs, DSPs, and BRAMs**.
+  
 ## Prerequisites  
 
 ### What is Edge Detection?  
