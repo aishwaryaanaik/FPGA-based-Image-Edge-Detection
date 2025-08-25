@@ -17,15 +17,6 @@ Target applications include **Advanced Driver Assistance Systems (ADAS)**, **rob
 
 > Real-time Sobel edge detection on **PYNQ-Z2 FPGA** using **Vitis HLS and Vivado**, achieving low-latency and efficient image processing for embedded vision applications.  
 
-
-
-## 📌 Introduction  
-This project implements **edge detection using FPGA-based 2D convolution** with the Sobel operator. By leveraging the parallel processing power of FPGAs, the design achieves **real-time image analysis** with **lower latency** and **efficient resource utilization** compared to software-only execution.  
-
-Target applications include **Advanced Driver Assistance Systems (ADAS)**, **robotics**, and **embedded vision systems**.  
-
-
-
 ## Prerequisites  
 
 ### What is Edge Detection?  
