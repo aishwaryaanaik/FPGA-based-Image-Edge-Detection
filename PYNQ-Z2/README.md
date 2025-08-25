@@ -1,3 +1,30 @@
+## PYNQ-Z2 Board  
+
+The **PYNQ-Z2** is an FPGA development board based on the **Xilinx Zynq-7000 SoC**.  
+It combines a **dual-core ARM Cortex-A9 processor** with programmable logic (FPGA), making it suitable for both **embedded software** and **hardware acceleration**.  
+
+### Key Features  
+- **Processor**: Dual-core ARM Cortex-A9 (650 MHz).  
+- **FPGA Fabric**: Xilinx Zynq XC7Z020-1CLG400C.  
+- **Memory**: 512 MB DDR3 RAM.  
+- **Storage**: MicroSD card slot.  
+- **Connectivity**:  
+  - HDMI In/Out  
+  - Ethernet (10/100/1000 Mbps)  
+  - USB OTG and UART  
+  - Audio In/Out  
+- **GPIO**: 2 × Pmod connectors, Arduino shield connector, LEDs, buttons, and switches.  
+
+###  Why We Use It  
+- Allows deployment of **FPGA-accelerated algorithms** (e.g., convolution, signal processing, ML inference).  
+- Python productivity with PYNQ framework for easy development.  
+- Suitable for **real-time applications** like oversteering detection and ADAS projects.  
+
+###  Resources  
+- [PYNQ-Z2 Official Page](http://www.tul.com.tw/ProductsPYNQ-Z2.html)  
+- [PYNQ Documentation](https://pynq.io/)  
+
+
 ## Using PYNQ-Z2 Board with Direct Ethernet Connection
 
 ### 1. Connect PYNQ-Z2 to Laptop via Ethernet
