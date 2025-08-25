@@ -103,6 +103,9 @@ The result is an image where **edges are highlighted** (white) against a dark ba
 
 ## Future Work  
 - Extend to **Canny edge detection**.  
-- Implement **real-time video edge detection**.  
+- Implement **real-time video edge detection**.
+
+## Co-authors
+-Nidhi Desai, Devika Vijapur,Smita Ganur
 
 
